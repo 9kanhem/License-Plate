@@ -8,6 +8,7 @@ os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 
 # DEFINING GLOBAL VARIABLE
 ocr = PaddleOCR(lang='en', rec_algorithm='CRNN')
+OCR_TH = 0.2
 
 # -------------------------------------- Lấy toạ độ box từ file YOLO ---------------------------------------------------------
 
